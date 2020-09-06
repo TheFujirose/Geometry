@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	<title>Understanding the 0th - 2nd Dimentions</title>
+
+	<style>
+		
+	.mainContent
+	{
+	border:1px solid #3cb371;
+	box-Shadow: 3px 5px #3cb371;
+	}
+
+	.mainContent-h1
+	{
+		color: rgb(60,179,113)
+	}
+
+	.mainContent-h2
+	{
+		color: rgb(60,179,113);
+	}
+
+	.mainContent-h3
+	{
+		color: rgb(60,179,113);
+	}
+
+	.mainContent-h4
+	{
+		color: rgb(60,179,173);
+	}
+
+	
+	.mathContent
+	{
+	border:1px solid #b33c43;
+	box-Shadow: 3px 5px #b33c43;
+	}
+
+	.mathContent-h1
+	{
+		color: rgb(122,41,46);
+	}
+
+	.mathContent-h2
+	{
+		color: rgb(122,41,46);
+	}
+
+	.mathContent-h3
+	{
+		color: rgb(160,54,60);
+	}
+
+	.mathContent-h4
+	{
+		color: rgb(179,60,67);
+	}
+
+
+	.extraContent
+	{
+	border:1px solid #ad3cb3;
+	box-Shadow: 3px 5px #ad3cb3;
+	}
+	.small
+	{
+		font-size: 11px;
+		margin: 3px 0 5px 0;
+	}
+
+	.math
+	{
+	}
+
+	.references
+	{
+		padding-top: 10px;
+		color: rgb(179,113,60);
+	}
+	
+	table
+	{
+	background-color: rgb(60,127,179);
+	}
+	
+
+	div 
+	{
+	background-color: rgb(255,255,255);
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	}
+	
+	</style>
+	
+	</head>
+	<table>
+		<thread>
+			<tr>
+				<th></th>
+				<th></th>
+			
+			</tr>
+		</thread>
+		<tbody>
+
+		<tr>
+			<td>
+				<div class = "mathContent">
+					<h2 class = "mathContent-h2">Calculating the Midpoint</h2>
+					<body>
+						The <i>X</i> coordinate of the midpoint is the average of the <i>X</i> coordinates of A and B and
+						the <i>Y</i> coordinate of the midpoint is the average of the <i>Y</i> coordinates of A and B.<br>
+						The midpoint can be calculated through the equation:<br>
+						<img src="https://mathworld.wolfram.com/images/equations/Midpoint/NumberedEquation1.gif" class="numberedequation" width="173" height="23" border="0" alt=" M=(1/2(x_1+x_2),1/2(y_1+y_2)). ">						
+					</body>
+					<h3 class = "mathContent-h3">Practice</h3>
+					<body>
+					Point A is at (-6,8) and point B is at (6, -7).
+					</body>
+					<h4 class= "mathContent-h4">What is the midpoint of line segment AB?</h4>
+					<body class = "math">
+						<i>M</i> = ( 1/2(-6 + 6), 1/2( 8 + (-7)).<br>
+						<i>M</i> = ( 1/2(0), 1/2(1).<br> 
+						<i>M</i> = (0, 1/2).<br> 
+					</body>
+					
+					
+				</div>
+				<div class = "mathContent">
+					<h2 class = "mathContent-h2">How to find a Missing Endpoint</h2>
+					<body>
+						To find the missing endpoint of a <a href="#segment">line segment<a> when given one Endpoint and the MidPoint you need to substitute the endpoint into the midpoint formula.<br>
+					</body>
+					<h3 class = "mathContent-h3">Practice</h3>
+					<body>
+						Point A is at (-6,8) and the Midpoint is at (0,1/2);
+					</body>
+					<h4 class= "mathContent-h4">What is the value of Point B</h4>
+					<body class = "math">
+						(0,1/2) = ( 1/2( -6 + <i>X</i>), 1/2(  8 + <i>Y</i>).<br>
+						(0,1/2) = ( -3 + 1<i>X</i>/2), 4 + 1<i>Y</i>/2).<br>
+						(0+3,1/2 - 4) = (1<i>X</i>/2, 1<i>Y</i>/2).<br> 
+						(3,1/2 - 4/1) = (1<i>X</i>/2, 1<i>Y</i>/2).<br> 
+						(3*2,1/2 - 4*2/1*2) = (<i>X</i>, 1<i>Y</i>/2).<br> 
+						(6,1/2 - 8/2) = (<i>X</i>, 1<i>Y</i>/2).<br> 
+						(6,-7/2) = (<i>X</i>, 1<i>Y</i>/2).<br> 
+						(6,-7/2 *2) = (<i>X</i>, <i>Y</i>).<br> 
+						(6,-7) = (<i>X</i>, <i>Y</i>).<br> 
+					</body>
+				
+				</div>
+			</td>
+
+			<td>
+				<div class="mainContent">
+					<h2 class = "mainContent-h2">The Point</h2>
+					<body>
+						The Point is a <b>zero-dimentional object</b> meaning that it has no width, length or height.<br>
+						A Point can exist in any dimention and functions as the <b> location </b> within any dimention.
+						This is specified using an <a href="#NTUPLE"><small><i><bold>n</small></i></bold>-tuple</a><br>
+						Points are discribed as a dot but take into mind that a point has no dimentions.<br><br>
+						<img src = "https://mathworld.wolfram.com/images/eps-gif/Point_1000.gif" alt="image of point on a plane" width="435" height = "136"><br><br>
+						Points come in many forms:<br>
+						<ul>
+							<li>Midpoint<br><small>Points that devide a <a = href="#segment">line segment</a> into two segments of equal length; The middle of the segment.</small></li><br>
+							<li>Endpoint<br><small>Points at the boundary of a <a = href="#segment">line segment</a>.</small></li><br>
+							<li>Antipodal Point</li><br>
+							<li>Isotropic Point</li><br>
+							<li>Diagonal Point</li><br>
+							<li>Collinear Points<br><small>Points that exist on the same <a href="#The_Line">line</a></small></li><br>
+							<li>Non-Collinear Points<br><small>Points that don't exist on the same <a href="#The_Line">line<a/></small></li><br>
+							<li>Coplanar Points<br><small>Points that exist on the same <a href="#The_Plane">plane<a/></small></li><br>
+							<li>Non-Coplanar Points<br><small>Points that don't exist on the same <a href="#The_Plane">plane<a/></small></li><br>
+						</ul>
+					</body>
+
+				</div>
+				
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="mainContent">
+					<h2 class = "mainContent-h2" id="The_Line">The Line</h2>
+					<body>
+						The Line is a <b>one-dimentional shape</b> meaning it has <b>length</b>, but no width or height.<br>
+						There are many different forms of lines:	
+					</body>
+					<ul>
+						<li id="segment">Line Segment</li>
+						<li id="ray">Ray</li>
+					</ul>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="mainContent">
+					<h2 class = "mainContent-h2" id="The_Plane">The Plane</h2>
+					<body>
+					
+					</body>
+				<div>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+
+	<h3 class="references" id="REFERENCES">REFERENCES:</h3>
+	<body>
+		<p class ="small"><a href="/topics/Stover.html">Stover, Christopher</a> and <a href="/about/author.html">Weisstein, Eric W.</a>  "Point." From <a href="/"><i>MathWorld</i></a>--A Wolfram
+ Web Resource. <a href="https://mathworld.wolfram.com/Point.html">https://mathworld.wolfram.com/Point.html</a></p><br>
+		<p class = "small"><a href="https://www.amazon.com/Mark-Ryan/e/B001H6KGUU%3Fref=dbs_a_mng_rwt_scns_share">Ryan, M. </a>(n.d.). <i>Geometry Essentials for Dummies</i>. Hoboken, New Jersey: John Wiley &amp; Sons.</p>
+
+	</body>
+
+</html>
